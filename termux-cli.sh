@@ -26,7 +26,7 @@ echo -e "\n$purpleColour[$endColour$greenColour*$endColour$purpleColour]$endColo
  git clone --depth=1 $p10kgit ~/powerlevel10k > /dev/null 2>&1
 mv ./.zshrc ~
 mv ./.p10k.zsh ~
-mv ./fonts.ttf ~/.termux
+mv ./font.ttf ~/.termux
 mv ./colors.properties ~/.termux
 echo -e "\n$purpleColour[$endColour$greenColour*$endColour$purpleColour]$endColour$blueColour Instalando Terminal$endColour$greenColour...$endColour"
 chsh -s zsh
