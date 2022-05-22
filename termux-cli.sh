@@ -27,6 +27,7 @@ echo -e "\n$purpleColour[$endColour$greenColour*$endColour$purpleColour]$endColo
 mv ./.zshrc ~
 mv ./.p10k.zsh ~
 mv ./fonts.ttf ~/.termux
+mv ./colors.properties ~/.termux
 echo -e "\n$purpleColour[$endColour$greenColour*$endColour$purpleColour]$endColour$blueColour Instalando Terminal$endColour$greenColour...$endColour"
 chsh -s zsh
 clear
