@@ -19,7 +19,7 @@ p10kgit="https://github.com/romkatv/powerlevel10k.git"
 # Codigo
 clear
 echo -e "$purpleColour[$endColour$greenColour*$endColour$purpleColour]$endColour$blueColour Instalando Paquetes$endColour$grayColour...$endColour"
-apt update > /dev/null 2>&1 && apt upgrade -y > /dev/null 2>&1 && apt install lsd zsh git wget bat fzf -y > /dev/null 2>&1
+apt update > /dev/null 2>&1 && apt upgrade -y > /dev/null 2>&1 && apt install lsd zsh wget bat fzf -y > /dev/null 2>&1
 clear
 echo -e "$purpleColour[$endColour$greenColour*$endColour$purpleColour]$endColour$blueColour Paquetes instalados Correctamente$endColour$grayColour...$endColour"
 echo -e "\n$purpleColour[$endColour$greenColour*$endColour$purpleColour]$endColour$blueColour Descargando Ficheros y Configuración$endColour$endColour$grayColour...$endColour"
